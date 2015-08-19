@@ -1,0 +1,292 @@
+@import url(fonts/planer_regular_macroman.css);
+/* line 14, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+body {
+  background-image: url("/images/experimatic/plaid.png");
+  font-family: "PlanerRegular", sans-serif;
+  margin: 0; }
+
+/* line 20, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#menu {
+  width: 840px;
+  height: 600px;
+  margin: 10px auto 0; }
+
+/* line 28, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#info-panel, .thumbnail {
+  float: left;
+  margin: 10px; }
+
+/* line 33, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#info-panel {
+  width: 580px;
+  height: 220px;
+  box-sizing: border-box;
+  padding: 25px 20px; }
+
+/* line 42, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#info-panel {
+  color: #ccc;
+  background-color: #777; }
+  /* line 47, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+  #info-panel h1 {
+    margin-top: 0;
+    font-size: 1.9em;
+    font-weight: normal;
+    color: white; }
+  /* line 54, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+  #info-panel p {
+    font-size: 1.3em; }
+  /* line 58, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+  #info-panel a {
+    color: #eee;
+    text-decoration: none; }
+    /* line 61, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+    #info-panel a:hover {
+      text-decoration: underline; }
+
+/* line 67, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  cursor: pointer; }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp001 {
+  background-image: url("/images/experimatic/exp001.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp001:hover {
+  background-image: url("/images/experimatic/exp001.gif"), url("/images/experimatic/exp001.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp002 {
+  background-image: url("/images/experimatic/exp002.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp002:hover {
+  background-image: url("/images/experimatic/exp002.gif"), url("/images/experimatic/exp002.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp003 {
+  background-image: url("/images/experimatic/exp003.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp003:hover {
+  background-image: url("/images/experimatic/exp003.gif"), url("/images/experimatic/exp003.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp004 {
+  background-image: url("/images/experimatic/exp004.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp004:hover {
+  background-image: url("/images/experimatic/exp004.gif"), url("/images/experimatic/exp004.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp005 {
+  background-image: url("/images/experimatic/exp005.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp005:hover {
+  background-image: url("/images/experimatic/exp005.gif"), url("/images/experimatic/exp005.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp006 {
+  background-image: url("/images/experimatic/exp006.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp006:hover {
+  background-image: url("/images/experimatic/exp006.gif"), url("/images/experimatic/exp006.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp007 {
+  background-image: url("/images/experimatic/exp007.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp007:hover {
+  background-image: url("/images/experimatic/exp007.gif"), url("/images/experimatic/exp007.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp008 {
+  background-image: url("/images/experimatic/exp008.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp008:hover {
+  background-image: url("/images/experimatic/exp008.gif"), url("/images/experimatic/exp008.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp009 {
+  background-image: url("/images/experimatic/exp009.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp009:hover {
+  background-image: url("/images/experimatic/exp009.gif"), url("/images/experimatic/exp009.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp010 {
+  background-image: url("/images/experimatic/exp010.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp010:hover {
+  background-image: url("/images/experimatic/exp010.gif"), url("/images/experimatic/exp010.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp011 {
+  background-image: url("/images/experimatic/exp011.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp011:hover {
+  background-image: url("/images/experimatic/exp011.gif"), url("/images/experimatic/exp011.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp012 {
+  background-image: url("/images/experimatic/exp012.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp012:hover {
+  background-image: url("/images/experimatic/exp012.gif"), url("/images/experimatic/exp012.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp013 {
+  background-image: url("/images/experimatic/exp013.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp013:hover {
+  background-image: url("/images/experimatic/exp013.gif"), url("/images/experimatic/exp013.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp014 {
+  background-image: url("/images/experimatic/exp014.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp014:hover {
+  background-image: url("/images/experimatic/exp014.gif"), url("/images/experimatic/exp014.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp015 {
+  background-image: url("/images/experimatic/exp015.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp015:hover {
+  background-image: url("/images/experimatic/exp015.gif"), url("/images/experimatic/exp015.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp016 {
+  background-image: url("/images/experimatic/exp016.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp016:hover {
+  background-image: url("/images/experimatic/exp016.gif"), url("/images/experimatic/exp016.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp017 {
+  background-image: url("/images/experimatic/exp017.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp017:hover {
+  background-image: url("/images/experimatic/exp017.gif"), url("/images/experimatic/exp017.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp018 {
+  background-image: url("/images/experimatic/exp018.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp018:hover {
+  background-image: url("/images/experimatic/exp018.gif"), url("/images/experimatic/exp018.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp019 {
+  background-image: url("/images/experimatic/exp019.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp019:hover {
+  background-image: url("/images/experimatic/exp019.gif"), url("/images/experimatic/exp019.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp020 {
+  background-image: url("/images/experimatic/exp020.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp020:hover {
+  background-image: url("/images/experimatic/exp020.gif"), url("/images/experimatic/exp020.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp021 {
+  background-image: url("/images/experimatic/exp021.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp021:hover {
+  background-image: url("/images/experimatic/exp021.gif"), url("/images/experimatic/exp021.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp022 {
+  background-image: url("/images/experimatic/exp022.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp022:hover {
+  background-image: url("/images/experimatic/exp022.gif"), url("/images/experimatic/exp022.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp023 {
+  background-image: url("/images/experimatic/exp023.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp023:hover {
+  background-image: url("/images/experimatic/exp023.gif"), url("/images/experimatic/exp023.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp024 {
+  background-image: url("/images/experimatic/exp024.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp024:hover {
+  background-image: url("/images/experimatic/exp024.gif"), url("/images/experimatic/exp024.png"); }
+
+/* line 77, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp025 {
+  background-image: url("/images/experimatic/exp025.png"); }
+
+/* line 80, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#exp025:hover {
+  background-image: url("/images/experimatic/exp025.gif"), url("/images/experimatic/exp025.png"); }
+
+/* line 85, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#sketch {
+  width: 400px;
+  margin: 20px auto 0;
+  background-color: black; }
+
+/* line 91, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#sketch canvas {
+  display: block;
+  height: 400px; }
+
+/* line 96, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#sketch-panel {
+  color: #aaa;
+  background-color: #555;
+  padding: 15px;
+  margin: 0;
+  font-size: 1.4em;
+  cursor: pointer; }
+
+/* line 105, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#sketch-close {
+  font-size: 1.2em;
+  float: right; }
+
+/* line 110, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#sketch-panel:hover #sketch-close {
+  color: #fff; }
+
+/* line 114, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#return {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  transition: opacity 0.5s; }
+
+/* line 122, /home/michael/workspace/mgdotcom/source/style/experimatic.scss */
+#return:hover {
+  opacity: 1.0; }

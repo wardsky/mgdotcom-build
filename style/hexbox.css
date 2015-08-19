@@ -1,0 +1,39 @@
+/* line 8, /home/michael/workspace/mgdotcom/source/style/hexbox.scss */
+.hexbox {
+  width: 800px;
+  height: 560px; }
+  /* line 13, /home/michael/workspace/mgdotcom/source/style/hexbox.scss */
+  .hexbox .row {
+    clear: left; }
+    /* line 17, /home/michael/workspace/mgdotcom/source/style/hexbox.scss */
+    .hexbox .row .cell {
+      float: left; }
+  /* line 24, /home/michael/workspace/mgdotcom/source/style/hexbox.scss */
+  .hexbox .row .cell {
+    width: 80px;
+    height: 0;
+    border-style: solid; }
+  /* line 30, /home/michael/workspace/mgdotcom/source/style/hexbox.scss */
+  .hexbox .row .cell:nth-child(even) {
+    border-width: 70px 40px; }
+  /* line 34, /home/michael/workspace/mgdotcom/source/style/hexbox.scss */
+  .hexbox .row .cell:nth-child(odd) {
+    border-width: 70px 0; }
+  /* line 41, /home/michael/workspace/mgdotcom/source/style/hexbox.scss */
+  .hexbox .row:nth-child(3n + 1) .cell:nth-child(even) {
+    border-color: red black white; }
+  /* line 45, /home/michael/workspace/mgdotcom/source/style/hexbox.scss */
+  .hexbox .row:nth-child(3n + 1) .cell:nth-child(odd) {
+    border-color: black; }
+  /* line 52, /home/michael/workspace/mgdotcom/source/style/hexbox.scss */
+  .hexbox .row:nth-child(3n + 2) .cell:nth-child(even) {
+    border-color: white red black; }
+  /* line 56, /home/michael/workspace/mgdotcom/source/style/hexbox.scss */
+  .hexbox .row:nth-child(3n + 2) .cell:nth-child(odd) {
+    border-color: red; }
+  /* line 63, /home/michael/workspace/mgdotcom/source/style/hexbox.scss */
+  .hexbox .row:nth-child(3n + 3) .cell:nth-child(even) {
+    border-color: black white red; }
+  /* line 67, /home/michael/workspace/mgdotcom/source/style/hexbox.scss */
+  .hexbox .row:nth-child(3n + 3) .cell:nth-child(odd) {
+    border-color: white; }

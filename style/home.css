@@ -1,0 +1,38 @@
+body {
+  background: #eee;
+  font-family: 'Sofia Pro', 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+  text-align: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: color 0.1s;
+}
+
+a:hover {
+  color: red;
+}
+
+.banner {
+  display: block;
+  padding: 1px 0;
+}
+
+.content {
+  width: 800px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.site-links {
+  font-size: 1.4em;
+  text-transform: uppercase;
+  margin: 2em 0 1em;
+}
+
+.social-links {
+  font-size: 1.5em;
+  letter-spacing: 0.3em;
+}
