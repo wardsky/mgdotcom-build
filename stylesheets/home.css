@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Century Gothic', 'CenturyGothic', 'AppleGothic', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+a {
+  color: white;
+  opacity: 0.2;
+  text-decoration: none;
+  transition: opacity 0.1s;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+.social-links {
+  font-size: 1.5em;
+  letter-spacing: 0.3em;
+}
