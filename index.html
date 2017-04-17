@@ -15,18 +15,90 @@
   <body class="index">
     
     
-<div class="content">
-  <video src="videos/runner.mp4" autoplay loop></video>
-  <div class="navigation">
-    <a href="works">Recent works</a>
-  </div>
-  <div class="social-links">
-    <a href="//twitter.com/mwardsky" class="fa fa-twitter"></a>
-    <a href="//www.instagram.com/mwardsky/" class="fa fa-instagram"></a>
-    <a href="//wardsky.deviantart.com/" class="fa fa-deviantart"></a>
-    <a href="//github.com/wardsky" class="fa fa-github"></a>
-  </div>
+<div class="track">
+  <figure class="info">
+    <img src="/images/light.jpg" alt="Light" />
+    <div class="social-links">
+      <a href="https://www.instagram.com/mwardsky/" class="fa fa-instagram"></a>
+      <a href="https://twitter.com/mwardsky" class="fa fa-twitter"></a>
+      <a href="https://github.com/wardsky" class="fa fa-github"></a>
+      <a href="https://wardsky.deviantart.com/" class="fa fa-deviantart"></a>
+    </div>
+  </figure><figure>
+    <img src="/images/cairn-i.jpg" alt="Cairn i" />
+    <figcaption>
+      cairn i (november 2012)
+    </figcaption>
+  </figure><figure>
+    <img src="/images/cairn-ii.jpg" alt="Cairn ii" />
+    <figcaption>
+      cairn ii (november 2012)
+    </figcaption>
+  </figure><figure>
+    <img src="/images/metaglobs.jpg" alt="Metaglobs" />
+    <figcaption>
+      metaglobs (2008/2012)
+    </figcaption>
+  </figure><figure>
+    <img src="/images/hawdon.jpg" alt="Hawdon" />
+    <figcaption>
+      hawdon (2016)
+    </figcaption>
+  </figure><figure>
+    <div class="image-frame">
+      <img src="/images/ghostmem-1.jpg" alt="Ghostmem 1" />
+    </div>
+    <div class="image-frame">
+      <img src="/images/ghostmem-2.jpg" alt="Ghostmem 2" />
+    </div>
+    <div class="image-frame">
+      <img src="/images/ghostmem-3.jpg" alt="Ghostmem 3" />
+    </div>
+    <div class="image-frame">
+      <img src="/images/ghostmem-4.jpg" alt="Ghostmem 4" />
+    </div>
+    <figcaption>
+      ghostmem (2008/2016)
+    </figcaption>
+  </figure><figure>
+    <img src="/images/redlofhill.png" alt="Redlofhill" />
+    <figcaption>
+      redlofhill (2016) <a href="https://www.youtube.com/watch?v=CwFWytJJX3A" class="fa fa-youtube-play"></a>
+    </figcaption>
+  </figure>
 </div>
+
+<style>
+  .image-frame {
+    height: 100%;
+    background-size: 100%;
+  }
+  .image-frame:nth-child(1) {
+    background-image: url(/images/ghostmem-2.jpg);
+  }
+  .image-frame:nth-child(2) {
+    background-image: url(/images/ghostmem-3.jpg);
+  }
+  .image-frame:nth-child(3) {
+    background-image: url(/images/ghostmem-4.jpg);
+  }
+  .image-frame:nth-child(4) {
+    background-image: url(/images/ghostmem-1.jpg);
+  }
+</style>
+
+<script>
+  function sCurve(x) { return (3 - 2 * x) * x * x; }
+  var imageFrames = document.querySelectorAll('.image-frame');
+  window.addEventListener('scroll', function () {
+    var d = window.pageXOffset / 200;
+    for (var i = 0; i < imageFrames.length; i++) {
+      imageFrames[i].querySelector('img').style.opacity = 1 - sCurve(d % 1);
+      imageFrames[i].style.display = 'none';
+    }
+    imageFrames[Math.floor(d % imageFrames.length)].style.display = 'block';
+  });
+</script>
 
     
   </body>
