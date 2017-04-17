@@ -48,6 +48,7 @@ a:hover {
   height: 60%;
   margin: 15%;
   max-height: 60vw;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
 
 .social-links {
