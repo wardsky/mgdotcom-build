@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Michael Groufsky 2017</title>
+    <title>Michael Groufsky 2019</title>
     <link href="/stylesheets/normalize.css" rel="stylesheet" />
       <link href="/stylesheets/home.css" rel="stylesheet" />
   <link href="/stylesheets/font-awesome.min.css" rel="stylesheet" />
@@ -90,8 +90,8 @@
 <script>
   function sCurve(x) { return (3 - 2 * x) * x * x; }
   var imageFrames = document.querySelectorAll('.image-frame');
-  window.addEventListener('scroll', function () {
-    var d = window.pageXOffset / 200;
+  document.querySelector('.track').addEventListener('scroll', function (ev) {
+    var d = ev.target.scrollLeft / 200;
     for (var i = 0; i < imageFrames.length; i++) {
       imageFrames[i].querySelector('img').style.opacity = 1 - sCurve(d % 1);
       imageFrames[i].style.display = 'none';

@@ -10,10 +10,12 @@ body {
   box-sizing: border-box;
   padding: 20px 10px;
   white-space: nowrap;
+  overflow-y: hidden;
 }
 
 figure {
   display: inline-block;
+  box-sizing: border-box;
   margin: 0 10px;
   height: 100%;
   position: relative;
@@ -44,9 +46,12 @@ a:hover {
   color: white;
 }
 
+.info {
+  padding: 50px;
+}
+
 .info img {
   height: 60%;
-  margin: 15%;
   max-height: 60vw;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
@@ -55,4 +60,5 @@ a:hover {
   text-align: center;
   font-size: 1.2em;
   letter-spacing: 0.4em;
+  margin-top: 50px;
 }
